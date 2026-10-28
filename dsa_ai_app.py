@@ -17,7 +17,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Cria instância do modelo de IA
-modelo_ai_dsa = genai.GenerativeModel('gemini-3.8-flash')
+modelo_ai_dsa = genai.GenerativeModel('gemini-3.6-flash')
 
 # Função para gerar a resposta do modelo de IA
 def dsa_gera_resposta_modelo(prompt):
